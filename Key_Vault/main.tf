@@ -15,7 +15,7 @@ resource "azurerm_key_vault" "key_vault" {
   soft_delete_retention_days  = var.kv_softdel_ret_day #7
   #purge_protection_enabled    = var.kv_purge_protection_enabled #false -- not allowed in sandbox subscription
 
-  sku_name = var.kv_sku #"standard"
+  sku_name = var.kv_sku 
 
   access_policy {
     tenant_id = data.azurerm_client_config.current.tenant_id
