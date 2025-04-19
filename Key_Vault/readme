@@ -1,0 +1,2 @@
+# We can use manage identity or service principal for securing the USER and Pass
+# Manage Identity is recomended. It is fully password less. So, it is better.
